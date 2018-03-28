@@ -27,7 +27,7 @@
                         </li>
                     @else
                         <li><a href="{{ route('help')}}">帮助</a></li>
-                        <li><a href="#">登入</a></li>
+                        <li><a href="{{ route('login') }}">登入</a></li>
                     @endif
                 </ul>
             </nav>
